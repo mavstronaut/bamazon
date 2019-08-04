@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/mavstronaut/bamazon/issues"
   },
-  "homepage": "https://github.com/mavstronaut/bamazon#readme"
+  "homepage": "https://github.com/mavstronaut/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^6.5.0"
+  }
 }
