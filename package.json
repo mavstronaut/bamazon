@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/mavstronaut/bamazon#readme",
   "dependencies": {
-    "inquirer": "^6.5.0"
+    "inquirer": "^6.5.0",
+    "mysql": "^2.17.1"
   }
 }
