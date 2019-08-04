@@ -15,6 +15,16 @@ var connection = mysql.createConnection({
 	database: 'bamazon'
 });
 
+// runBamazon will execute the main application logic
+function runBamazon() {
+	// console.log('___ENTER runBamazon___');
+
+	// Prompt manager for input
+	promptManagerAction();
+}
+
+// Run the application logic
+runBamazon();
 
 // promptManagerAction will present menu options to the manager and trigger appropriate logic
 function promptManagerAction() {
@@ -275,3 +285,5 @@ function createNewProduct() {
 		});
 	})
 }
+
+
