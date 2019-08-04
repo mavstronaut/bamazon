@@ -15,6 +15,18 @@ var connection = mysql.createConnection({
 	database: 'Bamazon'
 });
 
+
+// runBamazon will execute the main application logic
+function runBamazon() {
+	// console.log('___ENTER runBamazon___');
+
+	// Display the available inventory
+	displayInventory();
+}
+
+// Run the application logic
+runBamazon();
+
 // validateInput makes sure that the user is supplying only positive integers for their inputs
 function validateInput(value) {
 	var integer = Number.isInteger(parseFloat(value));
